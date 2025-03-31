@@ -1,0 +1,13 @@
+{
+  "doc": "Schema for leb device",
+  "type": "record",
+  "namespace": "com.yolohome",
+  "name": "LedDevice",
+  "fields": [
+    {"name":  "id_led", "type": ["null", "string"], "default": null},
+    {"name" : "bbc_led", "type": ["null" ,"string"], "default": null},
+    {"name" : "bbc_name", "type": ["null" ,"string"], "default": null},
+    {"name" : "bbc_password", "type": ["null" ,"string"], "default": null},
+    {"name" : "timestamp", "type": ["null" ,"string"], "default": null}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "doc": "Schema for temperature",
+  "type": "record",
+  "namespace": "com.yolohome",
+  "name": "TempDevice",
+  "fields": [
+    {"name" : "id_temp", "type": ["null" ,"string"], "default": null},
+    {"name" : "bbc_temp", "type": ["null" ,"float"], "default": null},
+    {"name" : "bbc_name", "type": ["null" ,"string"], "default": null},
+    {"name" : "bbc_password", "type": ["null" ,"string"], "default": null},
+    {"name" : "timestamp", "type": ["null" ,"string"], "default": null}
+  ]
+}

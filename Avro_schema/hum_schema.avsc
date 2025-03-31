@@ -1,0 +1,13 @@
+{
+  "doc": "Schema for leb humidity",
+  "type": "record",
+  "namespace": "com.yolohome",
+  "name": "HumidityDevice",
+  "fields": [
+    {"name":  "id_hum", "type": ["null", "string"], "default": null},
+    {"name" : "bbc_hum", "type": ["null" ,"float"], "default": null},
+    {"name" : "bbc_name", "type": ["null" ,"string"], "default": null},
+    {"name" : "bbc_password", "type": ["null" ,"string"], "default": null},
+    {"name" : "timestamp", "type": ["null" ,"string"], "default": null}
+  ]
+}

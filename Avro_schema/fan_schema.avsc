@@ -1,0 +1,14 @@
+{
+  "doc": "Schema for fan device",
+  "type": "record",
+  "namespace": "com.yolohome",
+  "name": "FanDevice",
+  "fields": [
+    {"name":  "id_fan", "type": ["null", "string"], "default": null},
+    {"name" : "bbc_fan", "type": ["null" ,"string"], "default": null},
+    {"name" : "bbc_control_fan", "type": ["null" ,"string"], "default": null},
+    {"name" : "bbc_name", "type": ["null" ,"string"], "default": null},
+    {"name" : "bbc_password", "type": ["null" ,"string"], "default": null},
+    {"name" : "timestamp", "type": ["null" ,"string"], "default": null}
+  ]
+}

@@ -1,0 +1,6 @@
+confluent-kafka==2.3.0
+confluent-kafka[avro]==2.3.0
+fastavro==1.8.2
+python-dateutil==2.8.2
+ipython==8.12.0
+jupyter==1.0.0

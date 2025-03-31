@@ -1,0 +1,13 @@
+{
+  "doc": "Schema for door device",
+  "type": "record",
+  "namespace": "com.yolohome",
+  "name": "DoorDevice",
+  "fields": [
+    {"name" : "id_door", "type": ["null" ,"string"], "default": null},
+    {"name" : "bbc_servo", "type": ["null" ,"string"], "default": null},
+    {"name" : "bbc_name", "type": ["null" ,"string"], "default": null},
+    {"name" : "bbc_password", "type": ["null" ,"string"], "default": null},
+    {"name" : "timestamp", "type": ["null" ,"string"], "default": null}
+  ]
+}
